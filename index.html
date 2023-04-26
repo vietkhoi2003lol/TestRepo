@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="home.css">
+<link rel="manifest" href="manifest.json">
+<title>Home</title>
+</head>
+
+<body>
+<header>
+  <!--Navbar on top of the website-->
+  <nav class="topnav" id="myTopnav">
+    <!--Clickable logo which links to homepage-->
+    <a class="logo" href="index.html"></a>
+    <!--Navbar buttons-->
+    <ul>
+      <li class="responsive">
+        <a href="/index.html" class="active">Home</a>
+      </li>
+      <li class="responsive">
+        <a href="/skills/skills.html">Skills</a>
+      </li>
+      <li class="responsive">
+        <a href="/about/about.html">About</a>
+      </li>
+      <!--Dropdown button for tablet and mobile devices-->
+      <li class="responsive">
+        <a href="/qualifications/qualifications.html">Qualifications</a>
+      </li>
+      <li>
+        <a class="icon" onclick="myFunction()">
+          <span>
+            <div class="iconbar"></div>
+            <div class="iconbar"></div>
+            <div class="iconbar"></div>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<!--Two big main buttons-->
+<section class="main-content">
+  <div class="row">
+    <div class="greet">Hello World!</div>
+    <div class="intro">I am Ben. A web designer,  artist and programmer.</div>
+    <div class="xl6 lg6 sm12 qualifications">
+      <a href="/qualifications/qualifications.html">Qualifications</a>
+    </div>
+    <div class="xl6 lg6 sm12 skills">
+      <a href="/skills/skills.html">Skills</a>
+    </div>
+  </div>
+</section>
+
+<!--Footer content-->
+<footer>
+  <div class="box">
+    <div class="row footer-content">
+      <section class="xl3 lg4 md12 sm12 footer-logo">
+        <a href="index.html" class="logowhite"></a>
+        <p>I am Ben. A web designer, athlete and programmer. Currently, I am also a 1st-year student at British University of Vietnam and my major is computer science.</p>
+      </section>
+      <section class="xl3 footer-products">
+        <h2>Products</h2>
+        <hr>
+        <ol>
+          <li><a>Liquor</a></li>
+          <li><a>Workout program</a></li>
+          <li><a>Art</a></li>
+        </ol>
+      </section>
+      <section class="xl3 lg4 footer-address">
+        <h2>Address</h2>
+        <hr>
+        <ul>
+          <li><a>Trường đại học Anh Quốc Việt Nam, Lô GĐ-01, Khu đô thị Ecopark, Hưng Yên<a></a></li>
+        </ul>
+      </section>
+      <section class="xl3 lg4 footer-contact">
+        <h2>Contact</h2>
+        <hr>
+        <ul>
+          <li><a>Email: khoi.tnv@st.buv.edu.vn</a></li>
+          <li><a>Phone: (84+) 936 130 466</a></li>
+        </ul>
+      </section>
+    </div>
+    <!--Navbar on bottom-->
+    <nav class="bottomnav">
+      <ul>
+        <li>
+          <a href="#home" class="active">Home</a>
+        </li>
+        <li>
+          <a href="#news">Products</a>
+        </li>
+        <li>
+          <a href="#contact">About</a>
+        </li>
+        <li>
+          <a href="#about">Others</a>
+        </li>
+      </ul>
+    </nav>
+
+
+    
+  </div>
+</footer>
+
+<script src="home.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
+
